@@ -1,0 +1,11 @@
+@startuml
+
+(*) --> C
+C --> A
+C --> G
+A --> B
+A --> F
+B --> D
+B --> E
+
+@enduml

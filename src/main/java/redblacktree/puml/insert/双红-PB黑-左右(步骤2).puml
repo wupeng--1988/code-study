@@ -1,0 +1,19 @@
+@startuml
+
+skinparam activity{
+FontName Impact
+FontColor white
+backgroundcolor black
+}
+
+(*) --> C#RED
+
+C --> P
+C --> PP
+
+P --> B
+P --> CL
+
+PP --> CR
+PP --> PB
+@enduml
