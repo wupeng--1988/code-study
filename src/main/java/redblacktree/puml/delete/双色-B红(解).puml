@@ -6,15 +6,15 @@ FontColor white
 backgroundcolor black
 }
 
-(*) --> P
+(*) --> B
+
+B --> P#RED
+
 P --> T
-P --> B
+P --> BL
 T --> TL
 T --> TR
-B --> BL#RED
-B --> BR#RED
 
-BL --> BLL
-BL --> BLR
+B --> BR
 
 @enduml
